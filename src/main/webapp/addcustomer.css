@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+label {
+    display:block;
+    color:black;
+    font-weight:bold;
+}
+
+.data {
+	
+	margin: auto;
+	margin-top: 100px;
+	height: 600px;
+	width: 400px;
+	text-align: center;
+	background-color:#f2f2f2;
+	
+}
+
+.entry {
+	
+	width: 250px;
+	height: 30px;
+	margin:auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display:block;
+	
+}
+
+.title {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #04AA6D;
+	 color: white;
+}
+
+.click {
+	width: 120px;
+	height: 40px;
+	background-color:#DC143C;
+	margin:auto;
+	margin-top: 30px;
+	color:white;
+	
+}

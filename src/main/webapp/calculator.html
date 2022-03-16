@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" href="calculator.css" type="text/css">
+<script src="cacluator.js"></script>
+
+</head>
+<body>
+	<table id="customers">
+
+		<tr>
+			<th colspan="4"><input type="text" name="Input" id="display" dir="rtl"></th>
+		</tr>
+		<tr>
+			<td class="brand"><b>PK's Calculator</b></td>
+			<td></td>
+			<td><input type="text" name="In" id="solar"><input type="text" name="In" id="solar"><input type="text" name="In" id="solar"></td>
+			<td><input type="button" name="clear" value="C" class="keys" id="clean"
+				onclick="clearScreen()"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="seven" value=" 7" class="keys"
+				onclick="display('7')"></td>
+			<td><input type="button" name="eight" value=" 8 " class="keys"
+				onclick="display('8')"></td>
+			<td><input type="button" name="nine" value=" 9 " class="keys"
+				onclick="display('9')"></td>
+			<td><input type="button" name="divide" value=" / " class="keys"
+				onclick="display('/')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="four" value=" 4" class="keys"
+				onclick="display('4')"></td>
+			<td><input type="button" name="five" value=" 5" class="keys"
+				onclick="display('5')"></td>
+			<td><input type="button" name="six" value=" 6" class="keys"
+				onclick="display('6')"></td>
+			<td><input type="button" name="multipy" value=" *" class="keys"
+				onclick="display('*')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="one" value=" 1" class="keys"
+				onclick="display('1')"></td>
+			<td><input type="button" name="two" value=" 2" class="keys"
+				onclick="display('2')"></td>
+			<td><input type="button" name="three" value=" 3" class="keys"
+				onclick="display('3')"></td>
+			<td><input type="button" name="minus" value=" -" class="keys"
+				onclick="display('-')"></td>
+		</tr>
+		<tr>
+			<td><input type="button" name="dot" value=" ." class="keys"
+				onclick="display('.')"></td>
+			<td><input type="button" name="zero" value=" 0" class="keys"
+				onclick="display('0')"></td>
+			<td><input type="button" name="plus" value=" +" class="keys"
+				onclick="display('+')"></td>
+			<td><input type="button" name="equal" value=" =" class="keys" id="equals"
+				onclick="calculate()"></td>
+		</tr>
+		<tr>
+		</tr>
+	</table>
+</body>
+</html>

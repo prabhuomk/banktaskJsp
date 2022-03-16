@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.task {
+  display: grid;
+  gap: 10px;
+  padding-left: 70px;
+  padding-top: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#num1{
+	
+	width:300px;
+}
